@@ -1,4 +1,4 @@
-#Clase Clínica
+# Clase Clínica
 
 from datetime import datetime
 from .paciente import Paciente

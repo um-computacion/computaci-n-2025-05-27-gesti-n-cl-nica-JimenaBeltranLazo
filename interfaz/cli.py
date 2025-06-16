@@ -1,4 +1,4 @@
-#Interfaz de Consola (CLI)
+# Interfaz de Consola (CLI)
 
 from modelo.clinica import Clinica
 from modelo.paciente import Paciente
