@@ -8,6 +8,24 @@
 - **Ciclo Lectivo**: 2025
 - **Carrera**: Ingeniería en Informática
 
+## Como Ejecutar el Sistema
+   ```bash
+   # Ejecutar el Sistema
+   python main.py
+
+   # Ejecutar todas las Pruebas
+   python -m unittest discover -s tests
+   ```
+
+## Explicación del Diseño General
+
+### Estructura del Proyecto
+El proyecto está organizado de la siguiente manera:
+- **interfaz/**: Incluye la clase CLI, el menú por consola que permite al usuario interactuar con el sistema.
+- **modelo/**: Contiene las clases `Paciente`, `Medico`, `Turno`, `Receta`, `Especialidad`, `HistoriaClinica` y la clase principal `Clinica`. Además de las Excepciones Personalizadas.
+- **tests/**: Contiene las pruebas principales para comprobar que el sistema responde bien a los casos solicitados.
+- **main.py**: Incluye el punto de inicio para ejecutar el Sistema de Gestión de la Clínica.
+
 ## ⏰ Información Importante sobre la Entrega
 
 ### 📅 Fechas Clave
