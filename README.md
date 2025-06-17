@@ -1,11 +1,30 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/y_fEcNZn)
 # 🏥 Sistema de Gestión para una Clínica
 
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: Jimena Sofía Beltran Lazo
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: Ingeniería en Informática
+
+## Como Ejecutar el Sistema
+   ```bash
+   # Ejecutar el Sistema
+   python main.py
+
+   # Ejecutar todas las Pruebas
+   python -m unittest discover -s tests
+   ```
+
+## Explicación del Diseño General
+
+### Estructura del Proyecto
+El proyecto está organizado de la siguiente manera:
+- **interfaz/**: Incluye la clase CLI, el menú por consola que permite al usuario interactuar con el sistema.
+- **modelo/**: Contiene las clases `Paciente`, `Medico`, `Turno`, `Receta`, `Especialidad`, `HistoriaClinica` y la clase principal `Clinica`. Además de las Excepciones Personalizadas.
+- **tests/**: Contiene las pruebas principales para comprobar que el sistema responde bien a los casos solicitados.
+- **main.py**: Incluye el punto de inicio para ejecutar el Sistema de Gestión de la Clínica.
 
 ## ⏰ Información Importante sobre la Entrega
 
